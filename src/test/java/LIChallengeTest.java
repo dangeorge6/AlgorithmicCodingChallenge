@@ -34,6 +34,11 @@ public class LIChallengeTest {
 		assertEquals("abcdefghijklmnopqrstuvwxyz", output);		
 	}
 	
+	@Test(expected=NullPointerException.class)
+	public void getMissingLettersShouldReturnAllLettersForNullString() {
+		LIChallenge.getMissingLetters(null);		
+	}
+	
 	//Tests for challenge 2
 	@Test
 	public void animateShouldReturnCorrectlyForSingleParticle() {

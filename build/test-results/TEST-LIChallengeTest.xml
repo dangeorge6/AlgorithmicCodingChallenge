@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LIChallengeTest" tests="9" skipped="0" failures="6" errors="0" timestamp="2016-11-01T01:28:45" hostname="Dannys-MacBook-Pro.local" time="0.007">
+<testsuite name="LIChallengeTest" tests="9" skipped="0" failures="6" errors="0" timestamp="2016-11-01T01:38:02" hostname="Dannys-MacBook-Pro.local" time="0.005">
   <properties/>
   <testcase name="animateShouldReturnCorrectlyForLargeNumberOfParticles" classname="LIChallengeTest" time="0.004">
     <failure message="java.lang.AssertionError: actual array was null" type="java.lang.AssertionError">java.lang.AssertionError: actual array was null
@@ -164,7 +164,7 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="animateShouldReturnCorrectlyForSingleParticle" classname="LIChallengeTest" time="0.0">
+  <testcase name="animateShouldReturnCorrectlyForSingleParticle" classname="LIChallengeTest" time="0.001">
     <failure message="java.lang.AssertionError: actual array was null" type="java.lang.AssertionError">java.lang.AssertionError: actual array was null
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:71)
@@ -273,7 +273,7 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="animateShouldReturnCorrectlyForManyParticlesPassingThroughEachOther" classname="LIChallengeTest" time="0.001">
+  <testcase name="animateShouldReturnCorrectlyForManyParticlesPassingThroughEachOther" classname="LIChallengeTest" time="0.0">
     <failure message="java.lang.AssertionError: actual array was null" type="java.lang.AssertionError">java.lang.AssertionError: actual array was null
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:71)
