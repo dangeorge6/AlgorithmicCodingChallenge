@@ -1,4 +1,4 @@
-Label Insight Backend Coding Test
+Backend Coding Test
 
 I'm using gradle as a build tool and jUnit tests to test my solutions for various inputs. Run 'gradle test' to run through the test cases.
 
